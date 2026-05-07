@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: userservice
+
+
+  # MySQL Database Configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/fitness
+    username: fitnessAdmin
+    password: fitness@2315
+
+    # JDBC Driver Class
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # Hibernate JPA Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
